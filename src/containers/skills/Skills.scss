@@ -1,9 +1,16 @@
 @import "../../_globalColor";
 
 .skills-main-div {
+  font-size: 28px;
   display: flex;
   width: 100%;
   overflow: hidden;
+}
+
+.skills-text {
+  font-size: 24px;
+  text-align: left;
+  line-height: normal;
 }
 
 .skills-text-div {
@@ -15,17 +22,33 @@
   margin-bottom: 30px;
 }
 
-.skills-image-div > img {
-  max-width: 100%;
+.skills-image-div > div {
+  width: 730px;
   height: auto;
+  margin-top: 2.5rem; // center it
+  margin-left: 1rem;
 }
 
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
 }
-.subTitle {
-  color: $subTitle;
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+
+  a img {
+    height: 40px; // Adjust icon size here
+    width: auto;  // Keeps aspect ratio
+    transition: transform 0.4s ease;
+  }
+
+  a:hover img {
+    transform: scale(1.3);
+  }
 }
 
 /* Media Query */
