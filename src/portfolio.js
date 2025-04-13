@@ -306,7 +306,7 @@ const achievementSection = {
       title: "Real-Time AI-Based Google News Scraper – 'Glimpse Through'",
       subtitle:
         "A Streamlit-based web app that uses AI and web scraping to fetch and summarize the latest Google News articles in real time across customizable topics and regions.",
-      image: require("./assets/images/glimpsethrough.gif"),
+      image: require("./assets/images/glimpsethrough.png"),
       imageAlt: "PWA Certification Logo",
       footerLink: [
         {
