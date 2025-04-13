@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.847beefb.css",
-    "main.js": "/developerFolio/static/js/main.aebee348.js",
+    "main.js": "/developerFolio/static/js/main.b7099c7d.js",
     "static/css/487.bb36206c.chunk.css": "/developerFolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/developerFolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/developerFolio/static/css/990.c6a7ee28.chunk.css",
@@ -16,16 +16,16 @@
     "static/media/emobilityLogo.png": "/developerFolio/static/media/emobilityLogo.e9ea2707f37918c8c48e.png",
     "static/media/thesisLogo.png": "/developerFolio/static/media/thesisLogo.6b9ab7f3605e1edc4a43.png",
     "static/media/nvidiaLogo.png": "/developerFolio/static/media/nvidiaLogo.33125458eb1cd0d7cea7.png",
+    "static/media/specialityLogo.png": "/developerFolio/static/media/specialityLogo.97a83499995a41b0b8e4.png",
     "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/boschLogo.png": "/developerFolio/static/media/boschLogo.46b1a9944495f5a3350f.png",
     "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/specialityLogo.png": "/developerFolio/static/media/specialityLogo.ce99910f2bab08f3864b.png",
     "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.41688022554dcfd3cd48.woff",
     "static/media/RPTULogo.png": "/developerFolio/static/media/RPTULogo.e6bad0e39f09ef0d0537.png",
     "static/media/skill.svg": "/developerFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/developerFolio/index.html",
     "main.847beefb.css.map": "/developerFolio/static/css/main.847beefb.css.map",
-    "main.aebee348.js.map": "/developerFolio/static/js/main.aebee348.js.map",
+    "main.b7099c7d.js.map": "/developerFolio/static/js/main.b7099c7d.js.map",
     "487.bb36206c.chunk.css.map": "/developerFolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/developerFolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/developerFolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.847beefb.css",
-    "static/js/main.aebee348.js"
+    "static/js/main.b7099c7d.js"
   ]
 }
