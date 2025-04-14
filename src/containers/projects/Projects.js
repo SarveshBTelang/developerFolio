@@ -16,7 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      fetch("https://SarveshBTelang.github.io/developerFolio/profile.json")
         .then(result => {
           if (result.ok) {
             return result.json();
@@ -46,7 +46,7 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
+          <h1 className="project-title">Github Projects</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {

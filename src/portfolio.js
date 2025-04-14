@@ -303,6 +303,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Microsoft Certified: Azure Data Fundamentals (DP-900)",
+      subtitle:
+        "Mastered the fundamentals of Data Engineering, Big Data Analytics, and Data Warehousing with Azure solutions.",
+      image: require("./assets/images/dp900.webp"),
+      imageAlt: "DP900",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://learn.microsoft.com/api/credentials/share/en-us/SarveshTelang-7586/FEA51647C2740343?sharingId=6732E5DDE640CD09"
+        }
+      ]
+    },
+    {
       title: "Real-Time AI-Based Google News Scraper – 'Glimpse Through'",
       subtitle:
         "A Streamlit-based web app that uses AI and web scraping to fetch and summarize the latest Google News articles in real time across customizable topics and regions.",
@@ -375,8 +388,16 @@ const talkSection = {
       credential_url: "https://www.credly.com/badges/63150cba-0f30-4f92-95e0-c2d433d7f13e"
     },
     {
+      image: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
+      credential_url: "https://learn.microsoft.com/api/credentials/share/en-us/SarveshTelang-7586/FEA51647C2740343?sharingId=6732E5DDE640CD09"
+    },
+    {
       image: "https://images.credly.com/size/340x340/images/16c405a6-bce7-4dda-9c85-e298617f00bd/image.png",
       credential_url: "https://www.credly.com/badges/271c5316-957f-4962-b891-980097a12294"
+    },
+    {
+      image: "https://images.credly.com/size/340x340/images/4b68a030-53d0-414b-be57-b1837bc3b3e6/image.png",
+      credential_url: "https://www.credly.com/badges/74a614b2-4c25-4e34-a717-60c768847157"
     },
     {
       image: "https://images.credly.com/size/340x340/images/92a3e7a1-a9c4-4356-ae16-033327c1e387/Coursera_20Data_20Warehouse_20Fundamentals.png",
@@ -397,6 +418,14 @@ const talkSection = {
     {
       image: "https://images.credly.com/size/340x340/images/e7192c75-33ae-4c79-890f-fcc6eb0dc653/image.png",
       credential_url: "https://www.credly.com/badges/a22a3d8a-4557-4051-9051-36a8def210ed"
+    },
+    {
+      image: "https://images.credly.com/size/340x340/images/87e311ec-4438-4701-b4ba-40867159c1e9/image.png",
+      credential_url: "https://www.credly.com/badges/f16bd340-db4e-427d-b3d4-1117ed7922bd"
+    },
+    {
+      image: "https://www.alternativeinsights.co.uk/wp-content/uploads/2019/04/logo-circle-microsoft.png",
+      credential_url: "https://www.linkedin.com/learning/certificates/f23cce4cceae1986623c94cdaebabe21d010a5e448e0b80605b60323295e736f"
     }
     // Add more badge objects if needed
   ],
@@ -437,7 +466,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

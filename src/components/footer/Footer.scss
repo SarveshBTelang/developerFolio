@@ -13,3 +13,16 @@
   margin-top: 2rem;
   padding-bottom: 1rem;
 }
+
+.footer-subtext {
+  text-align: center;
+  font-size: 0.7rem;
+  font-style: italic;
+  color: #7a7a7a; // medium gray color
+  margin-top: 0.3rem;
+
+}
+
+.dark-mode.footer-subtext {
+  color: #a0a0a0; // a slightly lighter gray for dark mode if needed
+}

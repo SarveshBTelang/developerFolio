@@ -12,6 +12,9 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made by Sarvesh Telang")}
         </p>
+        <p className={isDark ? "dark-mode footer-subtext" : "footer-subtext"}>
+          (Customized using React, Node.js, HTML, CSS and JavaScript)
+        </p>
       </div>
     </Fade>
   );
