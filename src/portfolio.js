@@ -26,7 +26,7 @@ const greeting = {
     "A passionate and detail-oriented engineer with 3 years of experience in the automotive industry, specializing in data-driven development, machine learning, computer vision tools, and building automation frameworks that are robust, maintainable, and production-ready."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1aAsgfR4Hb0pUoqNYpTSCVuS9g5Fr3CLH/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/154HO_GSWLuv9ct4i_9mOfcG3x5K6DWvH/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
