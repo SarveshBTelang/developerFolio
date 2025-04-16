@@ -76,7 +76,7 @@
   top: -16px;
   right: -16px;
   background: $buttonColor;
-  height: 32px;
+  height: 40px;
   width: 32px;
   border-radius: 32px;
   transform: scale(1);
@@ -96,6 +96,32 @@
 .blog-card:hover > h3 {
   transition: all 0.3s ease-out;
   color: $darkBoxShadow2;
+}
+
+@media (max-width: 1600px) {
+  .blog-title {
+    color: $blogCardTitleColor;
+    font-size: 1.1rem;
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 14px;
+    margin-top: 32px;
+    overflow: hidden;
+    display: -webkit-box;
+  }
+  
+  .small {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: $cardSubtitle;
+    padding: 0px 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    margin: 0px;
+  }
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px),

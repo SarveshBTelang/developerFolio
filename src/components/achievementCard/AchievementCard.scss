@@ -75,3 +75,38 @@
 span.certificate-tag:hover {
   background: $buttonHover;
 }
+
+@media (max-width: 1600px) {
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+  }
+  .card-title {
+    color: $titleColor;
+    font-size: 1.2rem;
+  }
+  .card-subtitle {
+    color: $cardSubtitle;
+    font-size: 1.0rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-image {
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+  }
+  .card-title {
+    color: $titleColor;
+    font-size: 1.1rem;
+  }
+  .card-subtitle {
+    color: $cardSubtitle;
+    font-size: 0.8rem;
+  }
+}
+
+
+

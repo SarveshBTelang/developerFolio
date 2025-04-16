@@ -22,10 +22,15 @@
 }
 
 /* Media Query */
+@media (max-width: 1600px) {
+  .experience-heading {
+    font-size: 40px;
+  }
+}
 
 @media (max-width: 1380px) {
   .experience-heading {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 

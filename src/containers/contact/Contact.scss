@@ -57,7 +57,7 @@
 
 .contact-image-div img {
   width: 60%;
-  max-width: 1600px;
+  max-width: 550px;
 }
 
 /* Media Query */
@@ -88,7 +88,42 @@
     font-size: 20px;
   }
 
-  .contact-image-div {
-    display: none;
+  .contact-image-div > img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contact-image-div img {
+    width: 60%;
+    max-width: 150px;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1600px) {
+  .contact-title {
+    font-size: 40px;
+  }
+
+  .contact-subtitle {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .contact-text-div {
+    margin-top: 1.5rem;
+  }
+
+  .contact-detail,
+  .contact-detail-email {
+    font-size: 20px;
+  }
+
+  .contact-image-div img {
+    width: 60%;
+    max-width: 480px;
   }
 }

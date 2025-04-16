@@ -46,6 +46,11 @@
 }
 
 /* Media Query */
+@media (max-width: 1600px) {
+  .blog-header-text {
+    font-size: 45px;
+  }
+}
 @media (max-width: 1380px) {
   .blog-header-text {
     font-size: 40px;

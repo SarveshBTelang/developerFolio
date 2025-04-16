@@ -44,14 +44,15 @@
 }
 
 /* Media Query */
+@media (max-width: 1600px) {
+  .skills-bar {
+    line-height: 3.5rem;
+  }
+}
 
 @media (max-width: 1456px) {
   .skills-bar {
-    line-height: 4rem;
-  }
-  .skills-image {
-    display: none;
-    order: 2;
+    line-height: 3.5rem;
   }
 }
 

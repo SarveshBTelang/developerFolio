@@ -32,6 +32,13 @@
   transition: opacity 0.5s ease-out;
 }
 
+@media (max-width: 1600px) {
+  .badge-image {
+    width: 210px;
+    height: 210px;
+  }
+}
+
 @media (max-width: 768px) {
   .badge-image {
     width: 150px;

@@ -16,6 +16,12 @@
 }
 
 /* Media Query */
+@media (max-width: 1600px) {
+  .achievement-heading {
+    font-size: 45px;
+  }
+}
+
 @media (max-width: 1380px) {
   .achievement-heading {
     font-size: 40px;

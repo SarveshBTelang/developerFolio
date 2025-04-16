@@ -87,7 +87,6 @@ export default function Contact() {
             <img
               alt="Contact"
               src={require("../../assets/images/my_image.png")}
-              style={{ width: "60%", maxWidth: "550px" }}
             />
           </div>
         </div>

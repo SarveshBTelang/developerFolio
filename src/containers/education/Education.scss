@@ -23,15 +23,28 @@
   padding-top: 20px;
 }
 
-@media (max-width: 1380px) {
+@media (max-width: 1600px) {
   .education-card-container {
-    padding-top: 0px;
+    padding-top: 16px;
   }
   .education-heading {
     font-size: 40px;
   }
   .education-text-subtitle {
     font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1380px) {
+  .education-card-container {
+    padding-top: 0px;
+  }
+  .education-heading {
+    font-size: 45px;
+  }
+  .education-text-subtitle {
+    font-size: 16px;
     text-align: center;
   }
 }

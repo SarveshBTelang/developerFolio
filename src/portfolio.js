@@ -250,7 +250,7 @@ const bigProjects = {
     {
       image: require("./assets/images/CBIRRT.png"),
       projectName: "Sampling-based Motion Planning with Obstacle Avoidance for a 7-DOF Robotic Arm",
-      duration: "Aug 2023 – Sept 2023",
+      duration: "Apr 2023 – Sept 2023",
       responsibilities: [
         "Implemented the Constrained Bi-directional Rapidly-Exploring Random Tree (CBiRRT) algorithm for path planning in configuration spaces with multiple constraints, addressing torque limits, object posture restrictions, and workspace adherence.",
         "Simulated and tested the algorithm in MATLAB using Robotic System Toolbox for a 7-DOF Franka robot, enabling pick-and-place operations.",
