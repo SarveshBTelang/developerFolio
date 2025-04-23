@@ -220,7 +220,7 @@ const bigProjects = {
         }, 
         {
           name: "Final Presentation",
-          url: "https://drive.google.com/file/d/15v83R9uCXkCt5xvgFN6FrsVU8MGYq0wH/view?usp=drive_link"
+          url: "https://docs.google.com/presentation/d/1HSHdqrrI8RBnmcrwZLg82HktebZU_8-HOmeCmmJiWM8/present"
         },
         {
           name: "Dataset Info",
@@ -394,6 +394,10 @@ const talkSection = {
     {
       image: "https://images.credly.com/size/340x340/images/16c405a6-bce7-4dda-9c85-e298617f00bd/image.png",
       credential_url: "https://www.credly.com/badges/271c5316-957f-4962-b891-980097a12294"
+    },
+    {
+      image: "https://www.databricks.com/sites/default/files/2024-08/lp-headerhero-image-tr-databricks-fundamentals-2x.png?v=1722857508",
+      credential_url: "https://credentials.databricks.com/4b20c117-0fa0-45c8-bc09-899e7819f366#acc.9N4pv0ns"
     },
     {
       image: "https://images.credly.com/size/340x340/images/4b68a030-53d0-414b-be57-b1837bc3b3e6/image.png",
