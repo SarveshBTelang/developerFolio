@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/developerFolio/static/css/main.950aeef0.css",
+    "main.css": "/developerFolio/static/css/main.739c8121.css",
     "main.js": "/developerFolio/static/js/main.878c3638.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/dp900.webp": "/developerFolio/static/media/dp900.961e6930910e71590402.webp",
     "static/media/skill.svg": "/developerFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/developerFolio/index.html",
-    "main.950aeef0.css.map": "/developerFolio/static/css/main.950aeef0.css.map",
+    "main.739c8121.css.map": "/developerFolio/static/css/main.739c8121.css.map",
     "main.878c3638.js.map": "/developerFolio/static/js/main.878c3638.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
@@ -32,7 +32,7 @@
     "769.bda0d7b7.chunk.js.map": "/developerFolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.950aeef0.css",
+    "static/css/main.739c8121.css",
     "static/js/main.878c3638.js"
   ]
 }
