@@ -112,8 +112,10 @@
     font-size: 16px;
     text-align: center;
   }
-  .skills-image-div {
-    /* display: none; */
-    order: 2;
+  .skills-image-div > div {
+    width: 300px;
+    height: auto;
+    margin-top: 1.75rem; // center it
+    margin-left: 0.7rem;
   }
 }
