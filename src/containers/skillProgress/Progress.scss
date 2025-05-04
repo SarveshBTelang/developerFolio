@@ -60,8 +60,11 @@
   .skills-container {
     flex-direction: column;
   }
+  .skill {
+    line-height: 4.5vw;
+  }
   .skills-bar {
-    line-height: 4.5rem;
+    line-height: 3.5rem;
     margin: 20px;
   }
   .skills-image {
