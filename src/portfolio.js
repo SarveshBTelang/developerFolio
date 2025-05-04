@@ -396,7 +396,7 @@ const talkSection = {
       credential_url: "https://www.credly.com/badges/271c5316-957f-4962-b891-980097a12294"
     },
     {
-      image: "https://www.databricks.com/sites/default/files/2024-08/lp-headerhero-image-tr-databricks-fundamentals-2x.png?v=1722857508",
+      image: "https://www.databricks.com/sites/default/files/inline-images/fundamentals-badge-databricks-2x_1.png?v=1722866235",
       credential_url: "https://credentials.databricks.com/4b20c117-0fa0-45c8-bc09-899e7819f366#acc.9N4pv0ns"
     },
     {
@@ -462,8 +462,8 @@ const contactInfo = {
   title: emoji("Contact"),
   subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
   status: "🟢 Current Status: Actively seeking job opportunities",
-  email_address: "telang@rptu.de",
-  number: "+49 1525 9455504"
+  email_address: "📧 telang@rptu.de",
+  //number: "+49 1525 9455504"
 };
 
 // Twitter Section
