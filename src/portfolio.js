@@ -462,7 +462,7 @@ const contactInfo = {
   title: emoji("Contact"),
   subtitle: "Discuss a project or just want to say hi? My inbox is open for all.",
   status: "🟢 Current Status: Actively seeking job opportunities",
-  email_address: "📧 telang@rptu.de",
+  email_address: "📧 telang.sarvesh@gmail.com",
   //number: "+49 1525 9455504"
 };
 
