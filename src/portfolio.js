@@ -23,7 +23,7 @@ const greeting = {
   username: "sarvesh telang",
   title: "Hi, I'm Sarvesh..",
   subTitle: emoji(
-    "A passionate and detail-oriented engineer with 3 years of experience in the automotive industry, specializing in data-driven development, machine learning, computer vision tools, and building automation frameworks that are robust, maintainable, and production-ready."
+    "Research-oriented Machine Learning Engineer with strong academic foundation in ADAS development, embedded systems, and AI-ML integration for autonomous driving. Experienced in AUTOSAR-based Software Development, CAN/LIN protocols, and ROS 2 simulation environments, with a track record of deploying production-ready ML models and automated testing frameworks that reduced manual QA efforts while maintaining ISO 26262 compliance standards."
   ),
   resumeLink:
     "https://drive.google.com/file/d/154HO_GSWLuv9ct4i_9mOfcG3x5K6DWvH/view?usp=sharing", // Set to empty to hide the button
@@ -118,18 +118,18 @@ const techStack = {
     },
     {
       Stack: "Azure, Git, Docker, Kubernetes",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "C++, SQL, C",
       progressPercentage: "60%"
     },
     {
-      Stack: "SQL, C++, C",
+      Stack: "ADAS & Automotive Software (AUTOSAR, ISO26262)",
       progressPercentage: "60%"
     },
     {
-      Stack: " ADAS & Automotive Software (AUTOSAR, ISO26262)",
-      progressPercentage: "60%"
-    },
-    {
-      Stack: "Data Manipulation & Visualization (Pandas, Numpy, Matplotlib, PLotly, Seaborn)",
+      Stack: "Exploratory Data Analysis & Visualization (Pandas, Numpy, Matplotlib, PLotly, Seaborn)",
       progressPercentage: "90%"
     },
     {
@@ -152,12 +152,11 @@ const workExperiences = {
       date: "Sept 2023 - Nov 2024",
       desc: "Responsibilities:",
       descBullets: [
-        "Led the label quality assurance team within the Automated Driving Alliance (Volkswagen Cariad & Bosch) for Level-3 systems",
-        "Managed quality control and feature engineering tasks for labels in ML models for lane detection",
-        "Improved label accuracy by 40% through regular feedback to suppliers",
-        "Created weekly quality reports and error analysis to support continuous quality improvement",
-        "Developed a Python-Tool for automated quality assessment and integrated it into the CI/CD-Pipeline",
-        "Designed a web-application with dynamic dashboard (using Azure and SharePoint API) to perform quality checks in real-time"
+        "Managed end-to-end label quality assurance for autonomous driving perception systems, ensuring high-fidelity annotated data for supervised learning in production-grade lane detection models",
+        "Designed and implemented Python-based test automation scripts using pytest, creating reusable test cases for validating labeling consistency, geometric accuracy, and edge-case handling across large-scale driving datasets",
+        "Implemented scalable quality control and feature engineering workflows, identifying and correcting 100+ labeling anomalies weekly, directly elevating overall dataset integrity and model performance",
+        "Achieved 40% improvement in labelling accuracy through automated anomaly detection algorithms, data-driven supplier training programs, and closed-loop feedback systems—accelerating model convergence",
+        "Designed real-time monitoring dashboard using Azure Functions, Azure Monitor, and Power BI to provide actionable insights into label quality metrics, enabling proactive issue resolution and continuous improvement in data annotation processes"
       ]
     },
     {
@@ -167,13 +166,12 @@ const workExperiences = {
       date: "Oct 2022 - Mar 2023",
       desc: "Internship Topic: Enhancement of ADAS Hardware Development Process through Machine Learning, Cloud Deployment and Vehicle Sensor Data Analysis",
       descBullets: [
-        "Implemented an AI-based knowledge discovery framework for the automotive camera Manufacturing Process",
-        "Migrated the Python version of multi-objective optimization algorithm, increasing the computation accuracy by 6%",
-        "Performed debugging to scale the code using Dask over HPC clusters, ensuring functionality on Windows and Linux",
-        "Deployed the code over Azure cloud using Azure ML and Docker to share and collaborate with external clients",
-        "Analyzed vehicle measurements from SHT and Type K sensors at 20+ ADAS sensor mounting locations",
-        "Developed a python tool to investigate the impact of temperature and humidity on driving behavior and sensor correlations",
-        "Created a MATLAB tool to visualize driver profiles across different time, weather, and road conditions"
+        "Project Focus: ADAS Hardware Development through Machine Learning, Cloud Deployment and Vehicle Sensor Data Analysis",
+        "Architected end-to-end ML prototypes leveraging Azure AutoML for rapid experimentation, subsequently optimizing and productionizing models with 23% inference efficiency gains through systematic hyperparameter tuning and model refinement",
+        "Resolved 50+ critical production bugs while implementing distributed computing solutions using Dask on HPC infrastructure, achieving cross-platform stability and 5x computational throughput for large-scale data processing workloads",
+        "Deployed an AI-driven optimization framework on Azure ML compute clusters leveraging multi-objective optimization and Pareto front analysis to accelerate hyperparameter tuning and model selection for ADAS perception systems",
+        "Developed Python-based analytics platform to analyze temperature and humidity data from 20+ in-vehicle sensor locations, correlating environmental conditions with driving behaviour patterns across varying weather scenarios",
+        "Created a MATLAB visualization tool for multidimensional driver profiling across temporal, meteorological, and road topology variables, supporting data-driven safety optimization initiatives"
       ]
     },
     {
@@ -183,8 +181,11 @@ const workExperiences = {
       date: "Apr 2021 - Aug 2021",
       desc: "Responsibilities:",
       descBullets: [
-        "Performed image and video frame annotations for autonomous vehicles and their chassis control systems",
-        "Worked on multiple annotation projects using NVIDIA HL2 platform, including Obstacle detection, VRU detection, LiDAR Free space detection, and Parking assistance."
+        "Executed high-precision image and video frame annotation for autonomous driving datasets using NVIDIA HL2 platform, supporting multi-class object detection models (vehicles, VRUs, traffic signs)",
+        "Partnered with cross-functional ML engineering teams to implement rigorous validation protocols and maintain strict adherence to annotation taxonomy standards, ensuring dataset consistency and model training reliability",
+        "Contributed to ~15% improvement in object detection performance through rigorous ground-truth validation and error analysis feedback loops",
+        "Conducted consistency audits and quality assurance checks to maintain dataset integrity across 5+ large-scale AV perception projects",
+        "Supported multi-sensor data synchronization checks for camera–LiDAR fusion datasets"
       ]
     }
   ]
