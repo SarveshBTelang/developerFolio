@@ -23,7 +23,7 @@ const greeting = {
   username: "sarvesh telang",
   title: "Hi, I'm Sarvesh..",
   subTitle: emoji(
-    "Research-oriented Machine Learning Engineer with strong academic foundation in ADAS development, embedded systems, and AI-ML integration for autonomous driving. Experienced in AUTOSAR-based Software Development, CAN/LIN protocols, and ROS 2 simulation environments, with a track record of deploying production-ready ML models and automated testing frameworks that reduced manual QA efforts while maintaining ISO 26262 compliance standards."
+    "Machine Learning Engineer with strong academic foundation in ADAS development, embedded systems, and AI-ML integration for autonomous driving. Experienced in Computer Vision, AUTOSAR-based SW Development, CAN/LIN protocols, and ROS 2 simulation environments, with a track record of deploying production-ready ML models"
   ),
   resumeLink:
     "https://drive.google.com/file/d/154HO_GSWLuv9ct4i_9mOfcG3x5K6DWvH/view?usp=sharing", // Set to empty to hide the button
