@@ -78,7 +78,7 @@ const educationInfo = {
       schoolName: "RPTU Kaiserslautern-Landau, Germany",
       logo: require("./assets/images/RPTULogo.png"),
       subHeader: "Master of Science in Commercial Vehicle Technology (Nutzfahrzeugtechnik)",
-      duration: "October 2021 - Present",
+      duration: "October 2021 - August 2025",
       desc: "Matser's Thesis: DNN-based Virtual Trajectory Generation for Autonomous Vehicles: Focus on Local Reference Path Computation",
       descBullets: [
         "CGPA (current): 1.9 (Good: German Grading System)",
@@ -304,15 +304,15 @@ const achievementSection = {
       ]
     },
     {
-      title: "Microsoft Certified: Azure Data Fundamentals (DP-900)",
+      title: "Microsoft Certified: Azure Data Scientist Associate (DP-100)",
       subtitle:
-        "Mastered the fundamentals of Data Engineering, Big Data Analytics, and Data Warehousing with Azure solutions.",
-      image: require("./assets/images/dp900.webp"),
-      imageAlt: "DP900",
+        "Demonstrated expertise in building end-to-end ML workflows using Azure ML services, including model training, AutoML, deployment, and MLOps practices for scalable AI solutions.",
+      image: require("./assets/images/dp100.png"),
+      imageAlt: "DP100",
       footerLink: [
         {
           name: "View Certificate",
-          url: "https://learn.microsoft.com/api/credentials/share/en-us/SarveshTelang-7586/FEA51647C2740343?sharingId=6732E5DDE640CD09"
+          url: "https://learn.microsoft.com/api/credentials/share/en-us/SarveshTelang-2910/85111A748451CB2D?sharingId"
         }
       ]
     },
